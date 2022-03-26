@@ -11,7 +11,7 @@ Feature: Account Management
 
     Examples:
       | firstname | lastname | email                    | password  | confirmpassword |
-      | peter     | robinson | peterrobinson1@yahoo.com | Peter123@ | Peter123@       |
+      | peter     | robinson | peterrobinson@yahoo.com | Peter123@ | Peter123@       |
 
   @SignIn
   Scenario Outline: Sign In using a valid email address
